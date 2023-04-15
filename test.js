@@ -5,7 +5,7 @@ function delay(time) {
 }
 
 try {
-  for (let count = 0; count < 2; count++) {
+  for (let count = 0; count < 10; count++) {
     console.time("currentWeather");
     const currentWeather = await api.currentWeather({
       lat: "40.730610",
